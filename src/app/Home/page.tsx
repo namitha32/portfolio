@@ -1,13 +1,16 @@
+import Image from "next/image";
 import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center min-h-screen p-8 bg-gray-50">
       <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
-        <img
-          src={`Software-Developer-Flat-Icon-Graphics-13375448-1.jpg`}
-          alt="Your Profile"
-          className="rounded-full w-64 h-64 object-cover shadow-lg transform transition-transform duration-300 hover:scale-105"
-        />
+  <Image
+  src="/Software-Developer-Flat-Icon-Graphics-13375448-1.jpg" // Note: For local images, use a leading slash.
+  alt="Your Profile"
+  className="rounded-full w-64 h-64 object-cover shadow-lg transform transition-transform duration-300 hover:scale-105"
+  width={256} // Required for next/image with static/local images
+  height={256} // Required for next/image with static/local images
+/>
       </div>
 
       <div className="md:w-1/2 text-center md:text-left ">
@@ -18,7 +21,7 @@ export default function HeroSection() {
           A Bit About Me
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-lg mx-auto md:mx-0 animate-fade-in">
-          I'm a paragraph. Click here to add your own text and edit me. I'm a
+          I'm a paragraph. Click here to add your own text and edit me. Im a
           great place for you to tell a story and let your users know a little
           more about you.
         </p>
