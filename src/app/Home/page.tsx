@@ -18,7 +18,7 @@ export default function HeroSection() {
           A Bit About Me
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-lg mx-auto md:mx-0 animate-fade-in">
-          I'm a paragraph. Click here to add your own text and edit me. I’m a
+          I'm a paragraph. Click here to add your own text and edit me. I'm a
           great place for you to tell a story and let your users know a little
           more about you.
         </p>
