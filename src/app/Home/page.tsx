@@ -1,5 +1,4 @@
 import Link from "next/link";
-import image from "Software-Developer-Flat-Icon-Graphics-13375448-1.jpg"
 export default function HeroSection() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center min-h-screen p-8 bg-gray-50">
