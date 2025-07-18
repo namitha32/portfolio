@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className=" text-black py-10 px-6 border-t">
+    <footer className=" text-black py-10 px-6 left-0 right-0 h-screen bottom-0 border-t">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 justify-center items-center">
  
         <div className="flex flex-col items-center md:items-start text-center md:text-left">

@@ -21,8 +21,8 @@ export default function Header() {
       <nav className="flex items-center justify-between p-4 bg-gray-50 text-white shadow-lg">
 
         <div className="flex items-center gap-1 text-black">
-          <h1 className="text-2xl font-bold">Namitha</h1>
-          <span className="text-sm text-black">Editor</span>
+         <a href="/"><h1 className="text-2xl font-bold">Namitha</h1>
+          <span className="text-sm text-black">designer</span></a> 
         </div>
 
        
